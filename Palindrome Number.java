@@ -11,10 +11,10 @@ class HelloWorld {
             s=s*10+r;
         }
         if(t==s){
-            System.out.println("The number is palindrome");
+            System.out.println("This number is palindrome");
         }
         else{
-            System.out.println("The number is not a palindrome");
+            System.out.println("This number is not a palindrome");
         }
     }
 }
