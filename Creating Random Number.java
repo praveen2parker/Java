@@ -4,5 +4,7 @@ class RandomNumber {
         int min=100000, max=999999;
         int a=(int)(Math.random()*(max-min)-min);
         System.out.println(a);
+        //Just Printing Random Number
+        System.out.println("Random Number"+Math.random());
     }
 }
