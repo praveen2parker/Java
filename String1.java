@@ -15,10 +15,10 @@ public class MyClass {
               if(temp==2){
                System.out.print(s.charAt(i));   
               }
-              else{
-                  System.out.print("not a repeating ");
-              }
           }
       }
+        if(temp==0||temp==1){
+               System.out.print("not a repeating ");
+          }
     }
 }
